@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  height: 4rem;
+  background-color: aquamarine;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0 1.5rem;
+}

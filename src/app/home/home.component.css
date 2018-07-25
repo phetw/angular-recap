@@ -1,0 +1,13 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+}
+
+.logo {
+  padding: 2rem;
+  text-align: center;
+}
+
+.input {
+  text-align: center;
+}

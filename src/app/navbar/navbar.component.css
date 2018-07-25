@@ -1,11 +1,21 @@
 nav {
   display: flex;
-  height: 4rem;
+  height: 5rem;
   background-color: aquamarine;
 }
 
-nav li {
+nav a {
+  color: #525252;
+  font-size: 18px;
   display: inline-block;
-  margin: 1rem;
+  margin: 1.5rem;
   padding: 0 1.5rem;
+  text-decoration: none;
+  transition: color 800ms;
+  transition: font-size 100ms;
+}
+
+nav a:hover {
+  font-size: 22px;
+  color: black;
 }

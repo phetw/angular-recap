@@ -1,18 +1,6 @@
 <section class="about">
-  <h1>Topic</h1>
-  <div class="content">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo est vel tenetur suscipit atque? Cum tempore qui magnam cupiditate
-    officia alias ducimus. Dignissimos minima non repudiandae praesentium in quaerat. Consectetur nesciunt eligendi magnam
-    natus? Est inventore repellat accusamus a impedit praesentium obcaecati nulla quis cum corrupti accusantium, voluptatum
-    sint esse porro. Odio dolorem, ipsa pariatur numquam sint explicabo rem ipsum ipsam ex, laboriosam nostrum doloremque?
-    Ducimus dolore quas harum beatae error est ratione rerum temporibus. Neque modi voluptas quibusdam, excepturi amet, libero
-    veritatis aperiam id doloremque, qui dolore earum natus cumque nam. Error repellat quidem architecto facere! Atque aliquam
-    a ea vitae hic amet tempora in illo, ullam, quod cumque error blanditiis fugit. Quasi vitae molestias perspiciatis odit
-    reprehenderit nobis pariatur nulla? Eum quibusdam impedit ea earum, vel, provident esse laboriosam, cupiditate consequuntur
-    ad reiciendis! Exercitationem eos cumque ipsum impedit totam voluptate, nam consectetur veritatis fugit, sint necessitatibus
-    ea officiis reprehenderit eaque possimus aut doloremque laudantium libero iusto. Rem esse quis blanditiis omnis corrupti
-    saepe inventore totam at, ullam nesciunt, reiciendis sint officiis, qui culpa. Rem praesentium et consequatur nesciunt
-    distinctio porro mollitia corporis odio quibusdam voluptatum nobis, quaerat tenetur dignissimos debitis vel, eos vitae?
-    Veniam harum optio amet facere.
-  </div>
+  <section *ngIf="book">
+    <h1>{{book.id}}.{{book.title}}</h1>
+    <div class="content">{{book.body}}</div>
+  </section>
 </section>
